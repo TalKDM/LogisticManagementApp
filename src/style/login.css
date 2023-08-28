@@ -1,0 +1,42 @@
+.mainLogIn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logInSection {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.logInTitle {
+    color: white;
+}
+
+.logInInputs input {
+    font-size: 20px;
+    outline: none;
+
+}
+
+.logInButton {
+    margin-top: 20px;
+}
+
+.logInButton button {
+    cursor: pointer;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 20px;
+    transition: 0.2s ease-in-out background-color;
+}
+
+.logInButton button:hover {
+    background-color: lightslategrey;
+}
